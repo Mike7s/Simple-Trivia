@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
+    "prebuild": "chmod +x ./node_modules/.bin/tsc",
     "build": "tsc",
     "start": "node dist/app.js"
 
